@@ -107,7 +107,7 @@ export function ProductImages({ images, setImages }: ProductImagesProps) {
         <Image src={addphoto} alt="add photo" />
       </label>
       {images.map((img, index) => (
-        <img
+        <Image
           key={index}
           src={img}
           alt={`Product Image ${index}`}

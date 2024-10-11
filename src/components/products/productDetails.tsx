@@ -146,10 +146,13 @@ export function ProductImages({ images, setImages }: ProductImagesProps) {
         id="image-upload"
       />
       {images.map((img, index) => (
-        <div className="flex w-full lg:max-w-md items-center justify-between flex-row">
+        <div
+          key={index}
+          className="flex w-full lg:max-w-md items-center justify-between flex-row"
+        >
           <img
-            key={index}
             src={img}
+            key={index}
             alt={`Product Image ${index}`}
             className="mt-2 w-32 h-32 object-cover"
           />

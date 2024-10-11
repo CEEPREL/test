@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import backArrow from "../../../public/svg/arrow_back.svg";
@@ -16,12 +16,10 @@ interface OnboardingWrapperProps {
 const OnboardingWrapper: React.FC<OnboardingWrapperProps> = ({
   children,
   handleClick,
-  activePage,
   color1,
   color2,
   color3,
 }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
   const route = useRouter();
 
   return (

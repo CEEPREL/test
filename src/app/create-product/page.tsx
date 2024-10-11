@@ -66,7 +66,7 @@ export default function Page() {
       content: <ProductImages images={images} setImages={setImages} />,
     },
     {
-      title: "Inventory variations",
+      title: "Inventory variations...",
       content: (
         <InventoryVariations
           hasVariations={hasVariations}

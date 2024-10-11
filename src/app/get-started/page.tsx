@@ -4,7 +4,6 @@ import GetStarted from "@/components/onBording/get-started";
 import OnboardingWrapper from "@/components/onBording/onboardingWrapper";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { useGlobalContext } from "@/contextAPI/global";
 
 export default function GetStartedPage() {
   const router = useRouter();

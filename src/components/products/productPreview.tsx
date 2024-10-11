@@ -3,7 +3,7 @@ import React from "react";
 import image from "../../../public/images/PRODUCT PAGE IMAGE.png";
 import share from "../../../public/svg/share.svg";
 import favorite from "../../../public/svg/favorite.svg";
-import star from "../../../public/svg/star.svg";
+import star from "../../../public/svg/Star.svg";
 import blackStar from "../../../public/svg/blackStar.svg";
 import followers from "../../../public/svg/followers.svg";
 import storeImage from "../../../public/images/store_image.png";

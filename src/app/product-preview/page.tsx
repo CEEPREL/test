@@ -1,7 +1,7 @@
 "use client";
 import ProductWrapper from "@/components/products/productWrapper";
 import { useGlobalContext } from "@/contextAPI/global";
-import React, { useState } from "react";
+import React from "react";
 import { useRouter } from "next/navigation";
 
 import {
@@ -11,7 +11,7 @@ import {
   SelectVariant,
 } from "@/components/products/productPreview";
 
-export default function page() {
+export default function Page() {
   const { user } = useGlobalContext();
   //   const [images, setImages] = useState<string[]>(user?.images || []);
   //   const [hasVariations, setHasVariations] = useState(

@@ -15,6 +15,7 @@ export default function StoreSetupPage() {
   const [storePhoneNumber, setStorePhoneNumber] = useState("");
   const [storeEmail, setStoreEmail] = useState("");
   const [category, setCategory] = useState("");
+  const [image, setImage] = useState("");
 
   const handleSubmit = () => {
     setUser((prevUser) => ({
@@ -50,6 +51,8 @@ export default function StoreSetupPage() {
         setStoreEmail={setStoreEmail}
         category={category}
         setCategory={setCategory}
+        image={image}
+        setImage={setImage}
       />
     </OnboardingWrapper>
   );
